@@ -1,0 +1,35 @@
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;/*Centrer le button*/
+    text-decoration: none;
+    display: block;  
+    font-size: 10px;
+    cursor: pointer;
+    width: 100%; /* btn in one line*/
+    height: 2rem;
+  }
+
+
+/* style the div*/
+
+  .checkBox{
+    max-width: 40rem;
+    max-height: 30rem;
+    text-align: center;
+background-color:azure;
+/* center  the div*/
+
+margin: auto;
+width: 50%;
+
+  }
+
+  
+  /* style the li delete point*/
+
+  .checkBox > ul > li{
+
+    list-style-type: none;
+  }
