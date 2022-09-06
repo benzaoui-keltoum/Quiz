@@ -7,39 +7,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
     <link rel="stylesheet" href="style.css">
-    <script src="script.js"></script>
 </head>
 
 <body>
 
     <div class="checkBox">
-        <h1> Question </h1>
+        <h1 id="h"> </h1>
 
         <ul>
             <li>
-                <input type="radio" checked="checked">
-                <label id="box" class="checkmarka" value="nnj">
+                <input id="ia" class="inputC" type="radio" name="resp">
+                <label id="boxa">
 
-                    response A
                 </label>
 
 
             </li>
             <li>
-                <input type="radio">
-                <label class="checkmark"> reponse b </label>
+                <input id="ib" class="inputC" type="radio" name="resp">
+                <label id="boxb"> </label>
 
 
             </li>
             <li>
-                <input type="radio">
-                <label class="checkmark"> reponse c</label>
+                <input id="ic" class="inputC" type="radio" name="resp">
+                <label id="boxc"> </label>
 
 
             </li>
             <li>
-                <input type="radio">
-                <label class="checkmark">reponse d</label>
+                <input id="id" class="inputC" type="radio" name="resp">
+                <label id="boxd"></label>
 
 
             </li>
@@ -48,16 +46,19 @@
 
         </ul>
 
-        <button class="button"> OK
+        <button class="button" onclick="testChecked()"> OK
+            <!--  
 
-
+         use li with flex grid to be nice
+-->
 
         </button>
 
 
 
-
     </div>
+    <script src="script.js"></script>
+
 </body>
 
 </html>

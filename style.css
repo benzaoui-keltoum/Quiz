@@ -24,12 +24,34 @@ background-color:azure;
 margin: auto;
 width: 50%;
 
+
   }
 
   
   /* style the li delete point*/
-
-  .checkBox > ul > li{
+  .checkBox > ul > li
+  {
 
     list-style-type: none;
+    
   }
+
+  input {
+    float: left;
+    clear: left;
+    width: 30px;
+  margin-bottom: 1.5%;
+}
+
+label {
+    float: left;
+    vertical-align: middle;
+}
+  
+h1{
+
+  float: left;
+  vertical-align: middle;
+margin-left: 10%;
+
+}
